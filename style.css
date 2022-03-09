@@ -109,12 +109,12 @@ section .col .text{
   padding: 40px;
 }
 
-section .col .text h2{
+section  h2{
   font-size: 2rem;
   padding-bottom: 20px;
 }
 
-section .col .text p{
+section  p{
   font-size: 1rem;
 }
 
@@ -124,15 +124,29 @@ section .col img{
 }
 
 
-
-
-div .banner{
+div .blocco{
   width: 90%;
-  height: 100px;
-  background-color: yellow;
   margin: 0 auto;
-  border: 1px black solid;
+  text-align: center;
+  padding: 40px;
 }
 
+
+.blocco-3 .btn a{
+  background-color: #8ea1e1;
+  color: white;
+}
+
+.blocco-3 .btn{
+  margin-top: 30px;
+}
+
+.blocco-3 .stars{
+  background-image: url(img/stars.svg);
+  background-size: contain;
+  width: 50%;
+  padding: 15px;
+  margin: 0 auto;
+}
 /* Footer */
 
