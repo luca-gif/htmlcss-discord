@@ -11,58 +11,90 @@
 }
 
 .container{
-  position: relative;
   width: 80%;
   height: 100%;
-  background-color:rgb(71, 70, 70);
-  margin: 0 auto
+/*   background-color:rgb(114, 113, 113);
+ */  margin: 0 auto
 }
+
+a{
+  text-decoration: none;
+}
+
+.btn a{
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
 
 /* header */
 
 header{
   background-color: #3161e0;
   height: 100px;
+  padding: 35px 0;
+}
+
+header .logo{
+  float: left;
+}
+
+header ul li{
+  list-style: none;
+  float: left;
+}
+
+header .btn a{
+  float: right;
+
+}
+
+header ul li a{
+  color: white;
+  padding: 0 10px;
+}
+
+.logo{
+  padding-right: 300px;
 }
 
 
 /* jumbotron */
 
 .jumbotron{
-  position: relative;
   background-color: coral;
-  height: 500px;
+  padding: 20px 0;
 }
 
 .jumbotron .text{
   height: 300px;
   width: 50%;
   background-color: black;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  
 }
 
 /* section */
 
-section{
-  position: relative;
-}
 
-section.white{
+section.odd{
+  background-color: white;
   height: 300px;
 }
 
-section.grey{
+section.even{
   background-color: #f6f6f6;
   height: 300px;
 }
 
 section .col{
-  width:50%;
+  width: 50%;
   height: 100%;
   float: left;
+  
 }
 
 .col-sx{
@@ -74,9 +106,13 @@ section .col{
   border: 1px black solid;
 }
 
-section .banner{
-  width: 100%;
+div .banner{
+  width: 90%;
   height: 100px;
-  background-color: darkgreen;
-  margin-bottom: 5px;
+  background-color: yellow;
+  margin: 0 auto;
+  border: 1px black solid;
 }
+
+/* Footer */
+
