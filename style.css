@@ -8,7 +8,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.clearfix::before{
+.clearfix::after{
   content: '';
   display: table;
   clear: both;
@@ -17,8 +17,8 @@ body{
 .container{
   width: 80%;
   height: 100%;
-  /*   background-color:rgb(114, 113, 113);
-  */  margin: 0 auto
+  /* background-color:rgb(114, 113, 113); */
+  margin: 0 auto
 }
 
 a{
@@ -75,7 +75,7 @@ header ul li a{
   padding: 70px 0;
 }
 
-.jumbotron .text{
+.jumbotron .title{
   height: 300px;
   width: 50%;
   margin: 0 auto;
@@ -90,32 +90,34 @@ header ul li a{
 
 /* section */
 
-
 section.odd{
   background-color: white;
-  height: 300px;
 }
 
 section.even{
   background-color: #f6f6f6;
-  height: 300px;
 }
 
 section .col{
   width: 50%;
-  height: 100%;
   float: left;
-  
 }
 
 .col-sx{
   background-color: blue;
-  border: 1px black solid;
+  border: 1px solid black;
 }
 .col-dx{
   background-color: red;
-  border: 1px black solid;
+  border: 1px solid black;
 }
+
+section .col img{
+  width: 100%;
+}
+
+
+
 
 div .banner{
   width: 90%;
