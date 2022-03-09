@@ -58,7 +58,7 @@ header .btn a{
 
 header ul li a{
   color: white;
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
 .logo{
@@ -84,7 +84,7 @@ header ul li a{
   font-size: 1.5rem;
 }
 
-.jumbotron .text h1{
+.jumbotron .title h1{
   padding-bottom: 40px;
 }
 
@@ -103,14 +103,21 @@ section .col{
   float: left;
 }
 
-.col-sx{
-  background-color: blue;
-  border: 1px solid black;
+section .col .text{
+  width: 50%;
+  margin: 0 auto;
+  padding: 40px;
 }
-.col-dx{
-  background-color: red;
-  border: 1px solid black;
+
+section .col .text h2{
+  font-size: 2rem;
+  padding-bottom: 20px;
 }
+
+section .col .text p{
+  font-size: 1rem;
+}
+
 
 section .col img{
   width: 100%;
