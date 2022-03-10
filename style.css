@@ -17,8 +17,7 @@ body{
 .container{
   width: 80%;
   height: 100%;
-  /* background-color:rgb(114, 113, 113); */
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 a{
@@ -104,12 +103,12 @@ section.even{
   background-color: #f6f6f6;
 }
 
-section .col{
+section .box{
   width: 50%;
   float: left;
 }
 
-section .col .text{
+section .box .text{
   width: 50%;
   margin: 0 auto;
   padding: 40px;
@@ -125,7 +124,7 @@ section  p{
 }
 
 
-section .col img{
+section .box img{
   width: 100%;
 }
 
@@ -156,12 +155,28 @@ div .blocco{
   margin: 0 auto;
 }
 
-footer{
-  background-color: black;
-  width: 100%;
-  height: 300px;
-}
 
 /* Footer */
 
 
+footer{
+  background-color: #23272a;
+  width: 100%;
+  height: 300px;
+}
+
+footer .col-big{
+  background-color: red;
+  width: 40%;
+  height: 300px;
+  float: left;
+
+}
+
+footer .col-normal{
+  background-color: red;
+  width: 15%;
+  height: 300px;
+  float: left;
+  border: 1px solid black;
+}
