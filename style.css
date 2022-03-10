@@ -178,13 +178,19 @@ footer .col-normal{
 
 footer .titolo{
   color: #7289da;
+  font-weight: bold;
 }
 
 footer h2.titolo{
   font-size: 2.2rem;
+  padding-bottom: 20px;
 }
 
-footer ul li a{
+footer img{
+  width: 20px;
+}
+
+footer ul li a,span{
   color: white;
 }
 
